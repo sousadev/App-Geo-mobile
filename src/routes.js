@@ -9,18 +9,19 @@ const Routes = createAppContainer(
         Main: {
             screen: Main,
             navigationOptions: {
-            title: "App-Geo By Italo"
+            title: "App-Geo"
             },
         },
         Profile: {
             screen: Profile,
             navigationOptions: {
-                title: "Perfil on GitHub"
+                title: "Profile on GitHub"
             }
         }
     }, {
         defaultNavigationOptions: {
             headerTintColor: '#EEE',
+            headerBackTitleVisible: false,
             headerStyle: {
                 backgroundColor: '#7D40E7'
             }
